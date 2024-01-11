@@ -1,8 +1,4 @@
-// COMANDO DI MATTIA PER VISUALIZZARE TUTTE LE CARD
-// let rowElement = document.querySelector(".row");
-
 const card = document.getElementById("row");
-
 
 // CODICE DI BASE
 for (var i = 1; i <= 100; i++) {
