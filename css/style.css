@@ -21,6 +21,29 @@ h1 {
     text-align: center;
 }
 
-.card {
-    width: 50px;
+#row {
+    display: flex;
 }
+
+.quad {
+    width: 100px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FizzBuzz {
+    background-color: red;
+}
+
+.Fizz {
+    background-color: green;
+}
+
+.Buzz {
+    background-color: yellow;
+}
+

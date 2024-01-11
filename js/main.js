@@ -1,7 +1,7 @@
 // COMANDO DI MATTIA PER VISUALIZZARE TUTTE LE CARD
 // let rowElement = document.querySelector(".row");
 
-// let card = document.getElementById("output-nome").innerHTML;
+const card = document.getElementById("row");
 
 
 // CODICE DI BASE
@@ -23,20 +23,7 @@ for (var i = 1; i <= 100; i++) {
         result = i;
         // console.log(i);
     }
-    rowElement.innerHTML += "<div class='card'>00</div>";
+
+    const box = `<div class="quad m-3 ${result}">${result}</div>`;
+    card.innerHTML += box;
 }
-
-
-
-// console.log(rowElement)
-
-
-
-
-cardRow.innerHTML += `
-    <div class="col-3">
-        <div class="card ${classes}">
-            <h3>${result}</h3>
-        </div>
-    </div>
-    `
