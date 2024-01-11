@@ -1,4 +1,4 @@
-
+let rowElement = document.querySelector(".row");
 
 // CODICE DI BASE
 for (var i = 1; i <= 100; i++) {
@@ -14,10 +14,11 @@ for (var i = 1; i <= 100; i++) {
     } else {
         console.log(i);
     }
+    rowElement.innerHTML += "<div class='card'>00</div>";
 }
 
 
-
+console.log(rowElement)
 // cardRow.innerHTML += `
 //     <div class="col-3">
 //         <div class="card ${classes}">

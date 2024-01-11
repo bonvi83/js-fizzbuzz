@@ -17,6 +17,10 @@ body {
     color: white;
 }
 
+h1 {
+    text-align: center;
+}
+
 .card {
     width: 50px;
 }
