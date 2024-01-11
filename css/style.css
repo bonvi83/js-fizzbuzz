@@ -16,3 +16,7 @@ body {
     background-color: var(--primary-color);
     color: white;
 }
+
+.card {
+    width: 50px;
+}
